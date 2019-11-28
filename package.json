@@ -1,0 +1,77 @@
+{
+  "name": "heiswap",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@drizzle-utils/core": "^0.3.1-alpha.0",
+    "@drizzle-utils/get-web3": "^0.2.2-alpha.0",
+    "@harmony-js/core": "^0.1.36",
+    "axios": "^0.19.0",
+    "bn.js": "^5.0.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "drizzle-utils": "^0.1.1",
+    "elliptic": "^6.5.1",
+    "node-gyp": "^6.0.1",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.2.0",
+    "rimble-ui": "^0.10.0",
+    "styled-components": "^4.4.1",
+    "tslib": "^1.10.0",
+    "web3": "^1.2.2",
+    "web3-utils": "^1.2.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "(ganache-cli -k=petersburg --quiet &) && truffle test && react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "standard",
+      "standard-react",
+      "plugin:flowtype/recommended"
+    ],
+    "parser": "babel-eslint",
+    "plugins": [
+      "flowtype"
+    ],
+    "settings": {
+      "flowtype": {
+        "onlyFilesWithFlowAnnotation": false
+      }
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-config-standard-react": "^9.2.0",
+    "eslint-plugin-flowtype": "^4.4.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "flow-bin": "^0.112.0",
+    "flow-remove-types": "^2.112.0",
+    "ganache-cli": "^6.7.0",
+    "truffle": "^5.1.0",
+    "truffle-hdwallet-provider": "^1.0.17"
+  }
+}

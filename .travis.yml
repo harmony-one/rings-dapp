@@ -1,0 +1,26 @@
+branches:
+  only: 
+    - master
+    
+language: node_js
+node_js:
+  - "10"
+env:
+  - CI=true
+
+install:
+  - yarn install
+
+script:
+  - yarn test
+
+before_deploy:
+  - yarn global add netlify-cli@2.11.23
+  - yarn build
+
+deploy:
+  provider: script
+  script: netlify deploy -p --dir=./build
+  skip_cleanup: true
+  on:
+    branch: master
