@@ -7,7 +7,7 @@ Ported from [Heiswap](https://github.com/kendricktan/heiswap-dapp) from Ethureum
 It ulitilizes Ring Signatures and pseudo-stealth addresses to achieve its zero-knowledge properties. 
 Ring signatures was only possible on the EVM (gas-wise) due to the recent addition of [EIP198](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-198.md) and [EIP1895](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1895.md).
 
-## install javascript libs
+## Install javascript libs
 ```bash
 $yarn install
 ```
@@ -28,7 +28,7 @@ Compiling your contracts...
 > Compiling ./contracts/Heiswap.sol
 > Compiling ./contracts/LSAG.sol
 > Compiling ./contracts/Migrations.sol
-> Artifacts written to /Users/Xuan/haobo/work/defi/rings-dapp/build/contracts
+> Artifacts written to rings-dapp/build/contracts
 > Compiled successfully using:
    - solc: 0.5.8+commit.23d335f2.Emscripten.clang
 
@@ -224,4 +224,4 @@ Summary
 > Total deployments:   4
 > Final cost:          0.004360672 ETH
 
-```bash
+```
