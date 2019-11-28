@@ -224,4 +224,4 @@ Summary
 > Total deployments:   4
 > Final cost:          0.004360672 ETH
 
-```bash
+```
