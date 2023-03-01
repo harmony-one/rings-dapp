@@ -71,7 +71,7 @@
     "flow-bin": "^0.112.0",
     "flow-remove-types": "^2.112.0",
     "ganache-cli": "^6.7.0",
-    "truffle": "^5.1.0",
+    "truffle": "^5.7.8",
     "truffle-hdwallet-provider": "^1.0.17"
   }
 }
